@@ -1,6 +1,10 @@
+## Model-based Inertia-constrained LRC-SCUC
+
 This set of codes implements our TPWRS paper "Security-Constrained Unit Commitment Considering Locational Frequency Stability in Low-Inertia Power Grids". 
 
 The proposed locational-RoCoF-constrained security-constrained unit commitment (LRC-SCUC) model along with supporting methods are implemented, as well as two benchmark models. 
+
+The novel LRC-SCUC model can ensure the optimal day-ahead scheduling solutions to meet (synchronous) inertia-related frequency stability requirements. Time-domain simulations were performed to validate the LRC-SCUC solutions.
 
 
 ## Introduction:
