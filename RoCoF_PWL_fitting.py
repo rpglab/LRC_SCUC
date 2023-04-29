@@ -8,7 +8,9 @@ Source webpage:
 https://rpglab.github.io/resources/LRC-SCUC_Python/
 
 If you use any codes/data here for your work, please cite the following paper:
-	Mingjian Tuo and Xingpeng Li, “Security-Constrained Unit Commitment Considering Locational Frequency Stability in Low-Inertia Power Grids”, IEEE Transaction on Power Systems, Oct. 2022.
+	Mingjian Tuo and Xingpeng Li, “Security-Constrained Unit Commitment  
+	Considering Locational Frequency Stability in Low-Inertia Power Grids”, 
+	IEEE Transaction on Power Systems, Oct. 2022.
 """
 
 import numpy as np
