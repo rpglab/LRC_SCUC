@@ -1,0 +1,89 @@
+[TSAT 8.0]
+
+
+[Base Scenario]
+
+{Scenario Description}
+Title = PWL Scenario 
+Author =  
+Date = Tuesday, May 03, 2022 16:51:18 
+{End Scenario Description}
+
+{Scenario Parameters}
+{End Scenario Parameters}
+
+{Powerflow Data}
+File = C:\Users\mtuo\Desktop\24_bus_2021\24_bus_systemPWL.pfb 
+Format = PSF NUMBER 
+Parameter File = 
+Solution File = 
+Control Mode File = 
+Node Breaker File = 
+Solve Base Powerflow = NO
+{End Powerflow Data}
+
+{UDM Template Data}
+File = 
+{End UDM Template Data}
+
+{Dynamic Data}
+Format = DSATools
+Name Option = 0
+File = C:\Users\mtuo\Desktop\24_bus_2021\IEEE24Gbase.dyr
+{End Dynamic Data}
+
+{Dynamic Representation Data}
+Name Option = 0
+File = 
+{End Dynamic Representation Data}
+
+{Monitor Data}
+Name Option = 0
+File = C:\Users\mtuo\Desktop\24_bus_2021\IEEE24bus.mon
+VSAT Monitor File = 
+{End Monitor Data}
+
+{PMU Data}
+Name Option = 0
+TCP Port = 7027
+PDC ID = 99
+{End PMU Data}
+
+{Switching Data}
+Name Option = 0
+File = C:\Users\mtuo\Desktop\24_bus_2021\IEEE24bus_PWL.swi
+Must-run File = 
+Don't-run File = 
+{End Switching Data}
+
+{Relay Data}
+File = 
+{End Relay Data}
+
+{Criteria Data}
+Name Option = 0
+File = 
+{End Criteria Data}
+
+{Transaction Data}
+Name Option = 0
+Transfer File = 
+Parameter File = 
+Interface And Circuit File = 
+Generator Capability File = 
+Generator Coupling File = 
+{End Transaction Data}
+
+{Sequence Network Data}
+File = 
+Format = PSS/E
+{End Sequence Network Data}
+
+{Hybrid Simulation Data}
+Name Option = 0
+Boundary Definition File = 
+Parameters File = 
+{End Hybrid Simulation Data}
+
+[End Base Scenario]
+

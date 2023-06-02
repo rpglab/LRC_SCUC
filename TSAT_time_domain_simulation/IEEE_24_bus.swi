@@ -1,0 +1,13 @@
+/
+/
+Description contingency_exc10
+Simulation 40 Seconds
+After 10 Seconds
+Disconnect generator ;23 ;2
+///Shed load ;23 ;2 100 50 0 [PERCENT]///
+///After 60 Seconds///
+///Restore load ;18 ;1 100 100 0 [PERCENT]///
+//////Ramp Load ;9 ;9 ;3 35 0 0.1 [MVA] [PROPORTIONAL]////
+Nomore
+/
+END

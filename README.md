@@ -23,6 +23,14 @@ The test system used in this work is a modified IEEE 24-bus system: one area of 
 * 'dataFile24BusAllinertia41sen_T.data': test data including system configuration, genrator parameters, renewable generation profile, electrical load profile.
 * 'dataFile24BusAllinertia41sen_4EP.data': test data including system configuration, genrator parameters, renewable generation profile, electrical load profile, PWL coefficient segments settings.
 
+## TSAT contigency dynamic simulation data files:
+The TSAT contingency dynamic simulation considering trip of a generator can be conducted with the following data files.
+* '24_bus_system.psp':raw file for IEEE 24-bus power system. 
+* '24_bus_system.pfb':Power flow results for IEEE 24-bus power system. 
+* '24_bus_system.tsa':TSAT dynamic simulation model. 
+* 'IEEE_24_bus.swi': Simulation and contingency settings: simulation period/contingency type.
+* 'IEEE_24_Gbase.dyr': Dynamic parameters settings of generators and loads.
+
 ## PWL evaluation point data (./COE_Files):
 * 'EP4_pwl_coefficients_busXX.xlsx': PWL coefficients of generator loss on bus XX in reduced power system model with RoCoF measuring time t=0.
 * 'EP4_pwl_coefficients_busXX_t2.xlsx': PWL coefficients  of generator loss on bus XX in reduced power system model with RoCoF measuring time t=0.5.
